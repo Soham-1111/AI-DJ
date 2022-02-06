@@ -1,0 +1,83 @@
+.header{
+    box-shadow: 5px 5px 15px;
+    width:100%;
+    margin:0;
+    padding: 15px;
+    
+   
+    
+}
+#heading{
+    font-size: 25px;
+    margin-top:10px;
+    font-family: 'Cinzel', serif;
+    
+}
+.header span{
+    font-size: 18px;
+    color:navy;
+}
+body{
+    background-size:cover;
+    
+}
+#play{
+background-image: url("playbutton.png");
+height:35px;
+width:50px;
+background-size: cover;
+
+
+
+
+}
+
+.speed{
+    float:left;
+
+}
+
+.disk{
+    width:200px;
+    border-radius:100px;
+    margin: 15px;
+}
+
+.volume{
+    float:right;
+}
+#volume1{
+    margin-left:75px;
+    font-size:20px;
+}
+#speed{
+    margin-left:60px;
+    font-size: 20px;
+}
+
+canvas{
+    border-color: chocolate;
+    border-style: solid;
+    border-width: 5px;
+    border-radius:20px;
+}
+
+#footer{
+    width:100%;
+    bottom: 0;
+    text-align: center;
+   font-size: 15px;
+    background-color: cadetblue;
+    position: fixed;
+    
+}
+
+#play{
+    border-radius: 10px;
+   background-size:cover;
+   background-position:center;
+}
+
+
+
+
